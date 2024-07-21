@@ -122,7 +122,6 @@ const LayoutFlow = () => {
     );
 
     const onNodeDragStop = useCallback(() => {
-        console.log('stop call back')
         draggingNodeRef.current = undefined;
     }, []);
 
