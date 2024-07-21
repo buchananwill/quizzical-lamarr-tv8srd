@@ -84,7 +84,7 @@ const useLayoutedElements = (draggingNodeRef) => {
                 // positions before we fit the viewport to the new layout.
                 fitView();
 
-                // If the simulation hasn't be stopped, schedule another tick.
+                // If the simulation hasn't been stopped, schedule another tick.
                 if (running) tick();
             });
         };
