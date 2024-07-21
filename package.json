@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0",
+    "@xyflow/react": "12.0.0",
+    "d3-force": "latest",
+    "d3-quadtree": "latest"
+  },
+  "main": "/index.js",
+  "devDependencies": {},
+  "name": "tv8srd",
+  "description": null,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
