@@ -90,6 +90,14 @@ const useLayoutedElements = (draggingNodeRef) => {
         };
 
         const toggle = () => {
+            if (!running) {
+                getNodes().forEach((node, index) => {
+                    let simNode = nodes[index];
+                    Object.assign(simNode, node);
+                    simNode.x = node.position.x
+                    simNode.y = node.position.y
+                })
+            }
             running = !running;
             running && window.requestAnimationFrame(tick);
         };
