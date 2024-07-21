@@ -105,7 +105,7 @@ const useLayoutedElements = (draggingNodeRef) => {
         const isRunning = () => running;
 
         return [true, {toggle, isRunning}];
-    }, [initialized]);
+    }, [initialized, getNodes, getEdges, draggingNodeRef, setNodes, fitView]);
 };
 
 const LayoutFlow = () => {
